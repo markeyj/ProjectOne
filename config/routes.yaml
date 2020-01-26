@@ -1,0 +1,26 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+home:
+    path: /
+    controller : App\Controller\HomeController::index
+
+customers:
+    path: /clients
+    controller : App\Controller\CustomersController::index
+
+suppliers:
+    path: /fournisseurs
+    controller : App\Controller\SuppliersController::index
+
+purchases:
+    path: /achats
+    controller : App\Controller\PurchasesController::index
+
+sales:
+    path: /ventes
+    controller : App\Controller\SalesController::index
+
+parameters:
+    path: /admin
+    controller : App\Controller\ParametersController::index
